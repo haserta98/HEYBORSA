@@ -3,10 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-<<<<<<< HEAD
-import { HeadComponent } from './head/head.component';
-import { HomeComponent } from './home/home.component';
-=======
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
@@ -24,15 +20,10 @@ import { AltinComponent } from './altin/altin.component';
 import { SorularimicerikComponent } from './sorularimicerik/sorularimicerik.component';
 import { Market } from './entities/Market';
 
->>>>>>> upstream/master
 
 @NgModule({
   declarations: [
     AppComponent,
-<<<<<<< HEAD
-    HeadComponent,
-    HomeComponent
-=======
     HeaderComponent,
     HomeComponent,
     SidebarComponent,
@@ -48,7 +39,6 @@ import { Market } from './entities/Market';
     FavorilerimComponent,
     AltinComponent,
     SorularimicerikComponent
->>>>>>> upstream/master
   ],
   imports: [
     BrowserModule,
